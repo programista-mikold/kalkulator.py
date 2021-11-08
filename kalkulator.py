@@ -1,0 +1,25 @@
+opcja == input("Wybierz opcję: mnożenie, dzielenie, dodawanie, odejmowanie: ")
+if opcja == "mnożenie":
+  mnozenie1 = input("Podaj pierwszą liczbę: ")
+  mnozenie2 = input("Podaj drugą liczbę: ")
+  print("Równa się:")
+  print(int(mnozenie1) * int(mnozenie2))
+  print("Gotowe!")
+if opcja == "dzielenie":
+  dzielenie1 = input("Podaj pierwszą liczbę: ")
+  dzielenie2 = input("Podaj drugą liczbę: ")
+  print("Równa się:")
+  print(int(dzielenie1) // int(dzielenie2))
+  print("Gotowe!")
+if opcja == "dodawanie":
+  dodawanie1 = input("Podaj pierwszą liczbę: ")
+  dodawanie2 = input("Podaj drugą liczbę: ")
+  print("Równa się:")
+  print(int(dodawanie1) + int(dodawanie2))
+  print("Gotowe!")
+if opcja == "odejmowanie":
+  odejmowanie1 = input("Podaj pierwszą liczbę: ")
+  odejmowanie2 = input("Podaj drugą liczbę: ")
+  print("Równa się:")
+  print(int(odejmowanie1) - int(odejmowanie2))
+  print("Gotowe!")
